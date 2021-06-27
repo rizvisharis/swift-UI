@@ -11,6 +11,8 @@
 		C32E3F482688BD1D00B37DC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32E3F472688BD1D00B37DC6 /* ContentView.swift */; };
 		C32E3F4A2688BD1E00B37DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32E3F492688BD1E00B37DC6 /* Assets.xcassets */; };
 		C32E3F4D2688BD1E00B37DC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32E3F4C2688BD1E00B37DC6 /* Preview Assets.xcassets */; };
+		C32E3F562688C73600B37DC6 /* sasKitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32E3F552688C73600B37DC6 /* sasKitchen.swift */; };
+		C32E3F592688D54A00B37DC6 /* sasKitchenDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32E3F582688D54A00B37DC6 /* sasKitchenDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C32E3F492688BD1E00B37DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C32E3F4C2688BD1E00B37DC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C32E3F4E2688BD1E00B37DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32E3F552688C73600B37DC6 /* sasKitchen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sasKitchen.swift; sourceTree = "<group>"; };
+		C32E3F582688D54A00B37DC6 /* sasKitchenDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sasKitchenDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				C32E3F452688BD1D00B37DC6 /* sas_kitchenApp.swift */,
 				C32E3F472688BD1D00B37DC6 /* ContentView.swift */,
+				C32E3F582688D54A00B37DC6 /* sasKitchenDetailView.swift */,
+				C32E3F552688C73600B37DC6 /* sasKitchen.swift */,
 				C32E3F492688BD1E00B37DC6 /* Assets.xcassets */,
 				C32E3F4E2688BD1E00B37DC6 /* Info.plist */,
 				C32E3F4B2688BD1E00B37DC6 /* Preview Content */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32E3F592688D54A00B37DC6 /* sasKitchenDetailView.swift in Sources */,
 				C32E3F482688BD1D00B37DC6 /* ContentView.swift in Sources */,
 				C32E3F462688BD1D00B37DC6 /* sas_kitchenApp.swift in Sources */,
+				C32E3F562688C73600B37DC6 /* sasKitchen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
